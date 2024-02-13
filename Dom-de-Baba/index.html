@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom-Color </title>
+</head>
+<body>
+    <header>
+  <h1>Welcome My Javascript Website</h1>
+  <button onclick="makeRed()">Make-Red</button><br><br>
+  <button id="make-skyblue">Make-Sky-Blue</button><br><br>
+  <button id="make-pink">make-pink</button><br> <br>
+  <button id="make-goldenrod">Golden-rod</button>
+    </header>
+    <script src="Script/style.js"></script>
+    <script>
+        const makeGolden = document.getElementById(`make-goldenrod`).addEventListener(`click`, function(){
+            document.body.style.backgroundColor = (`goldenrod`);
+        })
+    </script>
+</body>
+</html>
